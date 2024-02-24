@@ -1,0 +1,11 @@
+Proje 2 Merge Sort
+[16,21,11,8,12,22]
+1)Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+[16,21,11] – [8,12,22]
+[16] - [21,11] – [8,12] – [22]
+[16] - [11,21] – [8,12] – [22]
+[11,16,21] --- [8,12,22]
+[8,11,12,16,21,22]
+2)Big-O gösterimini yazınız.
+Her adımda, n-1 argümanı sıralamak gerekir, dolayısıyla zaman karmaşıklığı O(n) olur 2'ye bölerek tekrarlıyoruz. 
+2^x = n anlamına geliyor. Buna göre O(logn) Sonuç olarak cevap O(nlogn)'dur.
